@@ -10,8 +10,4 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-<block wx:for="{{[1, 2, 3]}}">
-  <view> {{index}}: </view>
-  <view> {{item}} </view>
-</block>
 </view>
