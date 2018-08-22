@@ -1,0 +1,5 @@
+/* pages/login/login.wxss */
+@import "../lib/weui.wxss";
+.input-text {
+  margin-bottom: 10px;
+}

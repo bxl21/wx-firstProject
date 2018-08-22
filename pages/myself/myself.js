@@ -10,7 +10,6 @@ Page({
       { id: 0, unique: 'unique_0' },
     ],
     numberArray: [1, 2, 3, 4],
-    lengt:7
   },
   switch: function (e) {
     const length = this.data.objectArray.length

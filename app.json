@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/myself/myself"
+    "pages/myself/myself",
+    "pages/login/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -27,6 +28,12 @@
       {
         "pagePath": "pages/myself/myself",
         "text": "我的",
+        "iconPath": "pages/zhongxin.png",
+        "selectedIconPath": "pages/zhongxin.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "登录",
         "iconPath": "pages/zhongxin.png",
         "selectedIconPath": "pages/zhongxin.png"
       }

@@ -1,0 +1,20 @@
+<view class="page-body">
+<view class="input-text">
+<text>登录名</text>
+ <view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+  <input class="weui-input" type="text" placeholder=""></input>
+  </view>
+</view>
+</view>
+<view class="input-text">
+<text>密码</text>
+ <view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+  <input class="weui-input" type="text" placeholder=""></input>
+  </view>
+  </view>
+  </view>
+
+  <button size="default" type="primary">登录</button>
+</view>

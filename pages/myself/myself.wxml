@@ -1,20 +1,22 @@
 <view class="container">
-<block wx:for="{{[1, 2, 3]}}">
+<block wx:for="{{[1, 2, 3]}}"wx:key="index">
   <view> {{index}}: </view>
   <view> {{item}} </view>
 </block>
 <block>
 <switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> {{item.id}} </switch>
-<view wx:if="{{lengt > 5}}"> 1 </view>
-<view wx:elif="{{lengt > 2}}"> 2 </view>
-<view wx:else> 3 </view>
 </block>
-<button bindtap="switch"> Switch </button>
+<button bindtap="switch" type="primary" > Switch </button>
 <button bindtap="addToFront"> Add to the front </button>
 
 <switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;"> {{item}} </switch>
 <button bindtap="addNumberToFront"> Add to the front </button>
-
 <wxs src="myself.wxs" module = "tools"/>
 <view>{{tools.bar(tools.FOO)}}</view>
+<view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
 </view>
+</view>
+
