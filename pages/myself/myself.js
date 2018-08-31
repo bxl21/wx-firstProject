@@ -1,4 +1,4 @@
-
+const date = new Date()
 Page({
   data: {
     objectArray: [
