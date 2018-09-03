@@ -12,7 +12,7 @@ Page({
   },
   sendData: function (e) {
     wx.request({
-      url: 'http://10.143.253.15:30106/api/h5/auth/smsSend',
+      url: '',
       data: {
         mobile: this.mobile,
       },
